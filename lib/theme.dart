@@ -14,4 +14,16 @@ class AppColors {
   static Color dark200 = Color(0xFF363636);
   static Color dark100 = Color(0xFF383838);
   static Color icon = Color(0xFF8C8A93);
+
+  static Color purpleBg = Color(0xFF6B75FF).withOpacity(0.08);
+  static Color purpleIcon = Color(0xFF3642DA);
+
+  static Color redBg = Color(0xFFFF6E66).withOpacity(0.08);
+  static Color redIcon = Color(0xFFFF6E66);
+
+  static Color yelloweBg = Color(0xFFFFC633).withOpacity(0.08);
+  static Color yelloweIcon = Color(0xFFFFC633);
+
+  static Color greenBg = Color(0xFF38D79F).withOpacity(0.08);
+  static Color greenIcon = Color(0xFF38D79F);
 }

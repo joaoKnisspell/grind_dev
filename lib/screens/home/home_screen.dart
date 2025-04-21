@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gym_dev/shared/widgets/app_bardart';
+import 'package:gym_dev/shared/widgets/actions_section.dart';
+import 'package:gym_dev/shared/widgets/app_bar.dart';
 import 'package:gym_dev/shared/widgets/divider.dart';
 import 'package:gym_dev/shared/widgets/header_text.dart';
 import 'package:gym_dev/theme.dart';
@@ -58,6 +59,8 @@ class HomeScreen extends StatelessWidget {
                     },
                   ),
                 ),
+                SizedBox(height: 24),
+                ActionsSection(),
               ],
             ),
           ),
